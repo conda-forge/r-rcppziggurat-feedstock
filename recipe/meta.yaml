@@ -32,6 +32,7 @@ requirements:
     - {{posix}}zip               # [win]
   host:
     - gsl
+    - libblas
     - r-base
     - r-rcpp
     - r-rcppgsl
