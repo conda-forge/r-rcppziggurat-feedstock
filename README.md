@@ -3,7 +3,7 @@ About r-rcppziggurat
 
 Home: https://CRAN.R-project.org/package=RcppZiggurat
 
-Package license: GPL-2
+Package license: GPL-2.0-only
 
 Feedstock license: BSD 3-Clause
 
