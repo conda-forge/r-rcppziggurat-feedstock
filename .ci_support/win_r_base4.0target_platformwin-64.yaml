@@ -4,8 +4,6 @@ channel_targets:
 - conda-forge main
 cran_mirror:
 - https://cran.r-project.org
-gsl:
-- '2.6'
 libblas:
 - 3.8 *netlib
 m2w64_c_compiler:
