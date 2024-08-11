@@ -15,5 +15,5 @@ index 831c90f..852dd55 100644
 -PKG_CPPFLAGS = -I. -I../inst/include
 -## Use the R_HOME indirection to support installations of multiple R version
 -PKG_LIBS = `$(R_HOME)/bin/Rscript -e "RcppGSL:::LdFlags()"`
-+PKG_LIBS = -L$(LIBRARY_LIB) -lgsl -lgslcblas -lm
-+PKG_CPPFLAGS = -I$(LIBRARY_INC) -I. -I../inst/include
++PKG_LIBS = -lgsl -lgslcblas -lm
++PKG_CPPFLAGS = -I. -I../inst/include
