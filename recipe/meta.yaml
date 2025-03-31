@@ -1,4 +1,4 @@
-{% set version = "0.1.7" %}
+{% set version = "0.1.8" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppZiggurat_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppZiggurat/RcppZiggurat_{{ version }}.tar.gz
-  sha256: e90f7d637ae8ff3988aaf5bbdc08a3ca99f6353ef55476a93a7a1faeca1c7e9f
+  sha256: 2eb09c74ea01532f099fa44776f7f1e66ef6ef28d17c55744c254f8832b63e10
   patches:
     - patches/0001-set-fixed-libs.patch
 
